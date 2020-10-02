@@ -30,6 +30,7 @@
     ],
     "rules": {
       "prettier/prettier": "error",
+      "camelcase": "off",
       "no-use-before-define": "off",
       "react-hooks/rules-of-hooks": "error",
       "react-hooks/exhaustive-deps": "warn",
@@ -41,6 +42,12 @@
         {
           "ts": "never",
           "tsx": "never"
+        }
+      ],
+      "@typescript-eslint/explicit-function-return-type": [
+        "error",
+        {
+          "allowExpressions": true
         }
       ]
     },
